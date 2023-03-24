@@ -1,0 +1,39 @@
+.main {
+    align-items: center;
+}
+
+.brand-image1 {
+  width: 110px;
+  margin-right: 10px;
+}
+
+.brand-image2 {
+  width: 130px;
+  margin-right: 10px;
+}
+.brand-image3 {
+  width: 100px;
+  margin-right: 10px;
+}
+.brand-image4 {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 65px;
+}
+.brand-image5 {
+  width: 90px;
+  margin-right: 10px;
+}
+.brand-image6 {
+  width: 70px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .brand-image4 {
+    margin-top: 0;
+  }
+}
